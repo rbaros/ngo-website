@@ -2,12 +2,12 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheets/ngowebsite.css"
-        <title>Registration and contact</title>
+        <title>Membership and Contact</title>
     </head>
     
     <body>
-        <p><strong>TO REGISTER</strong></p>
-        <form name="registrationform" method="post" action="sendform.php">
+        <p><strong>TO BECOME A MEMBER OF THE AQUARIUM</strong></p>
+        <form name="registrationform" method="post" action="apply.php">
             <p>First Name</p>
             <input name="firstname" type="text" size="15">
             <p>Last Name</p>
@@ -95,7 +95,25 @@
                 <option value="1934">1934</option>
                 <option value="1933">1933</option>
                 <option value="1932">1932</option>
-            </select>
+            </select><br><br>
+            <p><input type="submit" value="submit this!"></p>
         </form>
+        <br>
+        <p><strong>TO CONTACT</strong></p>
+        <form name="contactform" method="post" action="sendform.php">
+            <p>First Name</p>
+            <input name="firstname" type="text" size="15">
+            <p>Last Name</p>
+            <input name="lastname" type="text" size="15">
+            <p>Member?</p>
+            <p><input type="radio" name="member" value="yes">Yes
+            <input type="radio" name="member" value="no">No
+            </p><br>
+            <p>Your question, comment, or concern:</p>
+            <textarea name="comments" rows="10" cols="100"></textarea>
+
+            <input type="hidden" value="Albuquarium" name="website">
+
+            <p><input type="submit" value="submit this!"></p>
     </body>
 </html>
