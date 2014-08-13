@@ -1,17 +1,30 @@
 .center {
   text-align:center;
 }
-regular
+
+.regular
 {
-  height: 150;
-  
+  height: 200;
+  width: 200;  
 }
+#hours{
+  text-indent: 50px;
+  float:right;
+  width: 50%;
+  clear:left;
+}
+#tablecenter
+{
+  margin: auto;
+}
+
 p p{
 text-indent:50px;
 float:right;
 width: 50%;
 clear:left;
 }
+
 body {
   background-color:#009BA3;
   color:#142C57;
@@ -25,11 +38,12 @@ address {
   clear:right;
   text-align:center;
 }
+
 img {
   padding-top:75px;
   padding-left:100px;
-  
 }
+
 div {
   padding-top:75px;
 }
