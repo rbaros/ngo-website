@@ -1,12 +1,18 @@
 .center {
-  text-align:center;}
+  text-align:center;
+}
+regular
+{
+  height: 150;
+  
 }
 p p{
 text-indent:50px;
 text-align:center;
 }
 body {
-  background-color:#33ff99;
+  background-color:#009BA3;
+  color:#142C57;
   font-family:Arial;
 }
 
