@@ -8,13 +8,28 @@ regular
 }
 p p{
 text-indent:50px;
-text-align:center;
+float:right;
+width: 50%;
+clear:left;
 }
 body {
   background-color:#009BA3;
   color:#142C57;
   font-family:Arial;
 }
-
-
+ul {
+  list-style-type: none;
+}
+address {
+  clear:right;
+  text-align:center;
+}
+img {
+  padding-top:75px;
+  padding-left:100px;
+  
+}
+div {
+  padding-top:75px;
+}
 
