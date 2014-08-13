@@ -60,3 +60,7 @@ a:visited
 {
   color:#FF364C;
 }
+
+.sfloat {
+  float: left;
+  }
