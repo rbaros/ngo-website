@@ -17,6 +17,7 @@ body {
   color:#142C57;
   font-family:Arial;
 }
+
 ul {
   list-style-type: none;
 }
@@ -33,3 +34,15 @@ div {
   padding-top:75px;
 }
 
+a:link
+{
+  color:#02BAFF;
+}
+a:hover
+{
+  color:#DEE9FF;  
+}
+a:visited
+{
+  color:#FF364C;
+}
