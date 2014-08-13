@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../stylesheets/exhibits.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/ngowebsite.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/js.css">
+        <script src="javascript/accordion.js"></script>
         <title>Exhibits</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-  <script>
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
-  </script>
+  
     </head>
     
     <body>
         
-        <p>We have many entertaining exhibits here at the Albuquerque aquarium! <br>
-        Exhibit Map:</p><br>
-        <img src="aquarium_map"><br>
-        <div id="accordion"><h2>Rio Grande</h2>
+        <p>We have many entertaining exhibits here at the Albuquerque aquarium! <br><br>
+        Exhibit Map:</p>
+        <img src="images/aquarium_map.png"><br>
+        <div id="accordionContainer" class="accordionContainer">
+        <div onclick="runAccordion(1);">
+            <div class="accordionTitle" onselectstart="return false;">
+            <h2>Rio Grande</h2>
+        </div>
+        </div>
+        <div id="accordion1Content" class="accordionContent">
         <p>Just inside the Aquarium entrance, a 1950 Hudson travels over the Rio Grande at Central Bridge. Weaving together historical and modern elements, the exhibit is a window into the Albuquerque reach of the Rio Grande today and a century ago. Nearby, the Trout Stream represents the headwaters of the Rio Grande.</p> <br>
 
         <h3>Rio Grande Past</h3>
