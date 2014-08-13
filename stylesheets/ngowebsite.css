@@ -63,4 +63,15 @@ a:visited
 
 .sfloat {
   float: left;
-  }
+} 
+.menu {
+  display: inline;
+}
+#center {
+  text-align:center;
+  font-size:3em;
+}
+#team {
+  margin:auto;
+  padding-bottom:100px;
+}
