@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="stylesheets/ngowebsite.css">
         <title>Membership and Contact</title>
     </head>
     
     <body>
+        <header>
         <a href="aboutus.html"><img class="banner" src="images/aquarium.jpg" alt="aquarium" width="1200" height="300"></a>
+        </header>
        <nav>
           <ul style="list-style-type: none; text-align:center;">
             <li class="menu"><a href="events.html" width="50" height="25">Events</a></li>
@@ -17,7 +20,8 @@
        
           </ul>
           </nav>
-        <p><strong>TO BECOME A MEMBER OF THE AQUARIUM</strong></p>
+        <div class="container">
+        <p><strong>TO BECOME A MEMBER OF THE ALBUQUARIUM</strong></p>
         <form name="registrationform" method="post" action="apply.php">
             <p>First Name</p>
             <input name="firstname" type="text" size="15">
@@ -121,10 +125,11 @@
             <input type="radio" name="member" value="no">No
             </p><br>
             <p>Your question, comment, or concern:</p>
-            <textarea name="comments" rows="10" cols="100"></textarea>
+            <textarea id="text" name="comments" rows="10" cols="100"></textarea>
 
             <input type="hidden" value="Albuquarium" name="website">
 
             <p><input type="submit" value="submit this!"></p>
+        </div>
     </body>
 </html>
