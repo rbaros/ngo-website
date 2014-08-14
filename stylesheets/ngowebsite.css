@@ -2,6 +2,13 @@
   text-align:center;
 }
 
+.container
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00FFD2
+}
+
 .gallery
 {
   height: 225px;
@@ -77,6 +84,16 @@ a:visited
   margin-right: auto;
   padding-bottom:100px;
 }
+
+.container
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00FFD2;
+  height:100%;
+  width: 80%; 
+}
+
 nav {
   font-size:2em
 }
@@ -117,11 +134,34 @@ nav {
     font-size: 1em;
   }
   
-  .map
+  #map
   {
     margin-left: auto;
     margin-right: auto;
-    height: 60%;
-    width: 80%;
+    height: 10em;
+    width: 19.2em;
+  }
+  #hours{
+  text-indent: 0px;
+  float:left;
+  width: 60%;
+  clear:left;
+  }
+
+  #glass
+  {
+    width: 19.2em;
+    height: 20em;
+  }
+  
+  #founders
+  {
+    margin-left: auto;
+  }
+  
+  #team
+  {
+    width: 19.2em;
+    height: 9.6em;
   }
 }
