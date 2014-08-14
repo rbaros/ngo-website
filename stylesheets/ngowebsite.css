@@ -4,8 +4,8 @@
 
 .gallery
 {
-  height: 225;
-  width: 225;  
+  height: 225px;
+  width: 225px;  
 }
 #hours{
   text-indent: 50px;
@@ -85,10 +85,11 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 
+  width: 80%;
+  height: 30%;
 }
 #contact {
-  text-indent: 0px;
+  text-indent: 0.0em;
   display: block;
   margin-left: 3em
 }
