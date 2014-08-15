@@ -187,12 +187,12 @@ nav {
   .container
   {
   background-color:transparent;
+  border: hidden;
   }
   
   #text
   {
     resize: horizontal;
     max-width: 17.7em;
-    
   }
 }
