@@ -15,6 +15,28 @@
   width: 225px;  
 }
 
+.sfloat {
+  float: left;
+} 
+.menu {
+  display: inline;
+}
+
+.container
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00FFD2;
+  height:100%;
+  width: 80%; 
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #hours{
   text-indent: 50px;
   float:right;
@@ -31,6 +53,17 @@
   position: relative;
   text-align: center;
   clear: both;
+}
+
+#contact {
+  text-indent: 0em;
+  display: block;
+  margin-left: 3em
+}
+
+#center {
+  text-align:center;
+  font-size:3em;
 }
 
 p p{
@@ -71,40 +104,10 @@ a:visited
   color:#FF364C;
 }
 
-.sfloat {
-  float: left;
-} 
-.menu {
-  display: inline;
-}
-#center {
-  text-align:center;
-  font-size:3em;
-}
-
-.container
-{
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #00FFD2;
-  height:100%;
-  width: 80%; 
-}
-
 nav {
   font-size:2em
 }
 
-.banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#contact {
-  text-indent: 0em;
-  display: block;
-  margin-left: 3em
-}
 
 @media (max-width: 643px)
 {
