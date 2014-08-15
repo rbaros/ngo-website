@@ -6,13 +6,14 @@
 {
   margin-left: auto;
   margin-right: auto;
-  background-color: #00FFD2
+  background-color: #00FFD2;
+  height: 100em; 
 }
 
 .gallery
 {
-  height: 225px;
-  width: 225px;  
+  height: 10.0em;
+  width: 10.0em;  
 }
 
 .sfloat {
