@@ -35,6 +35,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 20em;
+  width: 70em;
 }
 
 #hours{
@@ -88,7 +90,7 @@ address {
 }
 
 div {
-  padding-top:75px;
+  padding-top:2em;
 }
 
 a:link
