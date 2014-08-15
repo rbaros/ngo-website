@@ -1,4 +1,5 @@
-.center {
+.center
+{
   text-align:center;
 }
 
@@ -9,10 +10,13 @@
   width: 10.0em;  
 }
 
-.sfloat {
+.sfloat
+{
   float: left;
 } 
-.menu {
+
+.menu
+{
   display: inline;
 }
 
@@ -25,7 +29,8 @@
   border: solid;
 }
 
-.banner {
+.banner
+{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,35 +48,41 @@
   border: solid;
 }
 
-#team {
+#team
+{
   border:solid;
 }
 
-#hours{
+#hours
+{
   text-indent: 50px;
   float:right;
   width: 60%;
   clear:left;
 }
+
 #tablecenter
 {
   margin: auto;
 }
 
-#founders {
+#founders
+{
   margin: auto 0;
   position: relative;
   text-align: center;
   clear: both;
 }
 
-#contact {
+#contact
+{
   text-indent: 0em;
   display: block;
   margin-left: 3em
 }
 
-#center {
+#center
+{
   text-align:center;
   font-size:3em;
 }
@@ -84,28 +95,34 @@
   border: solid black;
 }
 
-p p{
+p p
+{
 text-indent:50px;
 float:right;
 width: 50%;
 clear:left;
 }
 
-body {
+body
+{
   background-color:#009BA3;
   color:#142C57;
   font-family:Arial;
 }
 
-ul {
+ul
+{
   list-style-type: none;
 }
-address {
+
+address
+{
   clear:right;
   text-align:center;
 }
 
-div {
+div
+{
   padding-top:2em;
 }
 
@@ -113,45 +130,55 @@ a:link
 {
   color:#02BAFF;
 }
+
 a:hover
 {
   color:#DEE9FF;  
 }
+
 a:visited
 {
   color:#FF364C;
 }
 
-nav {
+nav
+{
   font-size:2em
 }
 
 
 @media (max-width: 643px)
 {
-  .banner {
+  .banner
+  {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   height: 30%;
   }
-  
-  #tablecenter
+  .container
   {
-    display: table;
+  background-color:transparent;
+  border: hidden;
   }
-  
+
   .gallery
   {
     width: 8em;
     height: 8em;
   }
-  nav
-  {
-    font-size: 1em;
-  }
   
+  #text
+  {
+    resize: horizontal;
+    max-width: 17.7em;
+  }  
+  #tablecenter
+  {
+    display: table;
+  }
+
   #map
   {
     margin-left: auto;
@@ -159,7 +186,9 @@ nav {
     height: 10em;
     width: 19.2em;
   }
-  #hours{
+  
+  #hours
+  {
   text-indent: 0px;
   float:left;
   width: 60%;
@@ -182,17 +211,10 @@ nav {
     margin-left: 0px;
     width: 19.2em;
     height: 9.6em;
-  }
-  
-  .container
+  }  
+
+  nav
   {
-  background-color:transparent;
-  border: hidden;
-  }
-  
-  #text
-  {
-    resize: horizontal;
-    max-width: 17.7em;
+    font-size: 1em;
   }
 }
