@@ -31,6 +31,8 @@
   margin-right: auto;
   height: 20em;
   width: 70em;
+  border-left:solid black;
+  border-right:solid black;
 }
 
 #team {
